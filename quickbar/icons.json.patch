@@ -1,0 +1,11 @@
+[
+  {
+    "op": "add",
+    "path": "/items/patman:chess",
+    "value": {
+      "label": "^shadow;^#ff80ce;Chess",
+			"icon": "/pat/chess/quickbar.png",
+      "action": [ "pane", "/pat/chess/chess.sussy" ]
+    }
+  }
+]

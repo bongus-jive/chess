@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "author" : "patman",
+  "description" : "Adds Chess to Starbound\nplay it at the vanilla chess table object, or through quickbar\n\n\n[img]https://i.imgur.com/wXjYMqP.gif[/img]https://discord.gg/GdsQSgV\n[img]https://i.imgur.com/uyG8oTa.gif[/img]https://www.patreon.com/pathiccstar",
+  "name" : "pat_chess",
+  "friendlyName" : "Chess",
+  "steamContentId" : "2814582162",
+  "link" : "steam://url/CommunityFilePage/2814582162"
+}
