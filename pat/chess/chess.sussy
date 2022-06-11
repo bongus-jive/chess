@@ -22,7 +22,16 @@
       "file" : "/pat/chess/lose.png",
       "position" : [87, 161],
       "visible" : false
-    }
+    },
+		"close" : {
+      "zlevel" : 1,
+			"type" : "button",
+			"base" : "/pat/chess/close.png:0",
+			"hover" : "/pat/chess/close.png:1",
+			"pressed" : "/pat/chess/close.png:1",
+			"pressedOffset" : [0, 0],
+			"position" : [265, 337]
+		}
   },
 
   "canvasClickCallbacks" : {"canvas" : "click"},
