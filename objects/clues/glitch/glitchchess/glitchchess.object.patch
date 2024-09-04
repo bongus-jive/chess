@@ -1,4 +1,4 @@
 [
-  { "op" : "add", "path" : "/interactAction", "value" : "ScriptPane" },
-  { "op" : "add", "path" : "/interactData", "value" : "/pat/chess/chess.sussy" }
+  { "op": "add", "path": "/interactAction", "value": "ScriptPane" },
+  { "op": "add", "path": "/interactData", "value": "/pat/chess/chess.sussy" }
 ]

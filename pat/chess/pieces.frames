@@ -1,8 +1,8 @@
 {
-  "frameGrid" : {
-    "size" : [26, 26],
-    "dimensions" : [6, 2],
-    "names" : [
+  "frameGrid": {
+    "size": [ 26, 26 ],
+    "dimensions": [ 6, 2 ],
+    "names": [
       [ "wpawn", "wknight" ],
       [ "bpawn", "bknight", "bbishop", "brook", "bqueen", "bking" ]
     ]

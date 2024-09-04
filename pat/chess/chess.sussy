@@ -1,70 +1,70 @@
 {
-  "gui" : {
-    "background" : {
-      "zlevel" : 0,
-      "type" : "background",
-      "fileBody" : "/pat/chess/board.png"
+  "gui": {
+    "background": {
+      "zlevel": 0,
+      "type": "background",
+      "fileBody": "/pat/chess/board.png"
     },
-    "canvas" : {
-      "type" : "canvas",
-      "rect" : [33, 69, 264, 336],
-      "captureMouseEvents" : true
+    "canvas": {
+      "type": "canvas",
+      "rect": [ 33, 69, 264, 336 ],
+      "captureMouseEvents": true
     },
-    "whitepieces" : {
-      "zlevel" : 1,
-      "type" : "image",
-      "file" : "/pat/chess/white.png",
-      "position" : [33, 69]
+    "whitepieces": {
+      "zlevel": 1,
+      "type": "image",
+      "file": "/pat/chess/white.png",
+      "position": [ 33, 69 ]
     },
-    "lose" : {
-      "zlevel" : 2,
-      "type" : "image",
-      "file" : "/pat/chess/lose.png",
-      "position" : [87, 161],
-      "visible" : false
+    "lose": {
+      "zlevel": 2,
+      "type": "image",
+      "file": "/pat/chess/lose.png",
+      "position": [ 87, 161 ],
+      "visible": false
     },
-		"close" : {
-      "zlevel" : 1,
-			"type" : "button",
-			"base" : "/pat/chess/close.png:0",
-			"hover" : "/pat/chess/close.png:1",
-			"pressed" : "/pat/chess/close.png:1",
-			"pressedOffset" : [0, 0],
-			"position" : [265, 337]
-		}
+    "close": {
+      "zlevel": 1,
+      "type": "button",
+      "base": "/pat/chess/close.png:0",
+      "hover": "/pat/chess/close.png:1",
+      "pressed": "/pat/chess/close.png:1",
+      "pressedOffset": [ 0, 0 ],
+      "position": [ 265, 337 ]
+    }
   },
 
-  "canvasClickCallbacks" : {"canvas" : "click"},
-  
-  "boardSize" : 208,
-  "squareSize" : 26,
-  
-  "images" : {
-    "pieces" : "/pat/chess/pieces.png",
-    "select" : "/pat/chess/select.png",
-    "dot" : "/pat/chess/dot.png",
-    "cat" : "/pat/chess/cat.png"
+  "canvasClickCallbacks": { "canvas": "click" },
+
+  "boardSize": 208,
+  "squareSize": 26,
+
+  "images": {
+    "pieces": "/pat/chess/pieces.png",
+    "select": "/pat/chess/select.png",
+    "dot": "/pat/chess/dot.png",
+    "cat": "/pat/chess/cat.png"
   },
-  "sounds" : {
-    "move" : "/pat/chess/move.ogg",
-    "fuck" : "/pat/chess/fuck.ogg",
-    "start" : "/pat/chess/start.ogg",
-    "end" : "/pat/chess/end.ogg"
+  "sounds": {
+    "move": "/pat/chess/move.ogg",
+    "fuck": "/pat/chess/fuck.ogg",
+    "start": "/pat/chess/start.ogg",
+    "end": "/pat/chess/end.ogg"
   },
-  "blackOrder" : ["brook", "bknight", "bbishop", "bqueen", "bking", "bbishop", "bknight", "brook"],
-  "moveTime" : 0.2,
-  
-  "catFrames" : 38,
-  "catTime" : 2.34,
-  "catStillFrames" : 14,
-  "catStillTime" : 0.84,
-  
-  "catFuck" : {"pawns" : [ 4, 5, 6], "pieces" : [4, 5, 6, 7]},
-  "catFuckOffset" : [-5, -15],
-  "catFuckOffsetRange" : 25,
-  "catFuckTime" : [0.05, 0.3],
-  "catFuckFrame" : 32,
-  
-  "scripts" : [ "/pat/chess/chess.lua" ],
-	"scriptDelta" : 1
+  "blackOrder": [ "brook", "bknight", "bbishop", "bqueen", "bking", "bbishop", "bknight", "brook" ],
+  "moveTime": 0.2,
+
+  "catFrames": 38,
+  "catTime": 2.34,
+  "catStillFrames": 14,
+  "catStillTime": 0.84,
+
+  "catFuck": { "pawns": [ 4, 5, 6 ], "pieces": [ 4, 5, 6, 7 ] },
+  "catFuckOffset": [ -5, -15 ],
+  "catFuckOffsetRange": 25,
+  "catFuckTime": [ 0.05, 0.3 ],
+  "catFuckFrame": 32,
+
+  "scripts": [ "/pat/chess/chess.lua" ],
+  "scriptDelta": 1
 }
