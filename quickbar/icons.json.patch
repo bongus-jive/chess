@@ -4,9 +4,9 @@
     "path": "/items/patman:chess",
     "value": {
       "label": "^shadow;^#ff80ce;Chess",
-      "icon": "/pat/chess/quickbar.png",
+      "icon": "/pat/chess/images/quickbar.png",
       "action": [ "pane", "/pat/chess/chess.sussy" ],
-      "buttonImages": { "base": "/pat/chess/quickbar_base.png" }
+      "buttonImages": { "base": "/pat/chess/images/quickbar_base.png" }
     }
   }
 ]
