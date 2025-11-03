@@ -51,6 +51,8 @@ function init()
       }
     end
   end
+
+  widget.setVisible("lose", false)
 end
 
 function update(dt)
