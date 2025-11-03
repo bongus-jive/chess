@@ -3,24 +3,30 @@
     "background": {
       "zlevel": 0,
       "type": "background",
-      "fileBody": "/pat/chess/images/board.png"
+      "fileHeader": "/pat/chess/images/board.png:header",
+      "fileBody": "/pat/chess/images/board.png:body"
     },
     "canvas": {
       "type": "canvas",
-      "rect": [ 33, 69, 264, 336 ],
+      "rect": [ 33, 33, 241, 241 ],
       "captureMouseEvents": true
+    },
+    "cat": {
+      "type": "image",
+      "zlevel": 0.5,
+      "position": [ 101, 126 ]
     },
     "whitepieces": {
       "zlevel": 1,
       "type": "image",
       "file": "/pat/chess/images/white.png",
-      "position": [ 33, 69 ]
+      "position": [ 33, 33 ]
     },
     "lose": {
       "zlevel": 2,
       "type": "image",
       "file": "/pat/chess/images/lose.png",
-      "position": [ 87, 161 ],
+      "position": [ 87, 125 ],
       "visible": false
     },
     "close": {
@@ -28,9 +34,9 @@
       "type": "button",
       "base": "/pat/chess/images/close.png:0",
       "hover": "/pat/chess/images/close.png:1",
-      "pressed": "/pat/chess/images/close.png:1",
-      "pressedOffset": [ 0, 0 ],
-      "position": [ 265, 337 ]
+      "pressed": "/pat/chess/images/close.png:0",
+      "pressedOffset": [ 0, -1 ],
+      "position": [ 263, 299 ]
     }
   },
 

@@ -29,9 +29,6 @@ function init()
   CatFrames = getParam("catFrames") - 1
   CatStillFrames = getParam("catStillFrames")
   
-  local catSize = root.imageSize(Images.cat..":0")
-  CatPosition = vec2.sub(Canvas:size(), catSize)
-  
   CatFuck = {}
   CatFuckFrame = getParam("catFuckFrame")
   local fuckOffset = getParam("catFuckOffset")
@@ -117,7 +114,8 @@ function update(dt)
     CatFrame = math.floor(math.abs(CatStillTimer - 1) * CatStillFrames)
     CatTimer = CatFrame / CatFrames
   end
-  Canvas:drawImage(Images.cat..":"..CatFrame, CatPosition)
+  
+  widget.setImage("cat", Images.cat..":"..CatFrame)
 end
 
 function updateFucked(dt)
