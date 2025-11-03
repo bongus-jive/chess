@@ -80,8 +80,8 @@
 
   "catFuck": { "pawns": [ 4, 5, 6 ], "pieces": [ 4, 5, 6, 7 ] },
   "catFuckOffset": [ -5, -15 ],
-  "catFuckOffsetRange": 25,
-  "catFuckTime": [ 0.05, 0.3 ],
+  "catFuckOffsetRange": 32,
+  "catFuckTime": [ 0.07, 0.66 ],
   "catFuckFrame": 32,
 
   "scripts": [ "/pat/chess/chess.lua" ],

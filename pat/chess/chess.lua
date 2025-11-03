@@ -1,5 +1,3 @@
-local function print(s) sb.logInfo(sb.printJson(s)) end
-
 require "/scripts/vec2.lua"
 require "/scripts/util.lua"
 
@@ -39,7 +37,7 @@ function init()
     CatFuck[k] = {}
     for _,n in ipairs(list) do
       local pos = vec2.add(randomOffset(fuckRange), fuckOffset)
-      local rot = vec2.mag(pos) / 180 * math.pi * util.randomFromList({-1, 1}) * 15
+      local rot = vec2.mag(pos) / 180 * math.pi * util.randomFromList({-1, 1}) * 12
       CatFuck[k][n] = {
         endPos = pos,
         endRot = rot,
