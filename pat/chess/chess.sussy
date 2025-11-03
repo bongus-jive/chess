@@ -38,6 +38,13 @@
       "pressed": "/pat/chess/images/close.png:0",
       "pressedOffset": [ 0, -1 ],
       "position": [ 263, 299 ]
+    },
+    "title": {
+      "type": "label",
+      "position": [ 16, 273 ],
+      "value": "Chess",
+      "directives": "border=3;000;000",
+      "fontSize": 24
     }
   },
 
