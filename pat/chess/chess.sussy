@@ -25,9 +25,14 @@
     },
     "lose": {
       "zlevel": 2,
-      "type": "image",
-      "file": "/pat/chess/images/lose.png",
-      "position": [ 87, 125 ],
+      "type": "label",
+      "position": [ 137, 155 ],
+      "value": "you losed",
+      "color": "red",
+      "fontSize": 40,
+      "directives": "?border=6;000;0000",
+      "hAnchor": "mid",
+      "vAnchor": "mid",
       "visible": false
     },
     "close": {
