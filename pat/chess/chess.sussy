@@ -9,7 +9,8 @@
     "canvas": {
       "type": "canvas",
       "rect": [ 33, 33, 241, 241 ],
-      "captureMouseEvents": true
+      "captureMouseEvents": true,
+      "scissoring": false
     },
     "cat": {
       "type": "image",
